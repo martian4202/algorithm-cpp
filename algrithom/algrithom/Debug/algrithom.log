@@ -1,15 +1,19 @@
-﻿  main.cpp
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(88): error C2065: “low”: 未声明的标识符
-  c:\users\17431\source\repos\algrithom\algrithom\sort.h(87): note: 编译 类 模板 成员函数 "void max_heap<int>::build_heap(void)" 时
-  c:\users\17431\source\repos\algrithom\algrithom\main.cpp(11): note: 参见对正在编译的函数 模板 实例化“void max_heap<int>::build_heap(void)”的引用
-  c:\users\17431\source\repos\algrithom\algrithom\main.cpp(8): note: 参见对正在编译的 类 模板 实例化 "max_heap<int>" 的引用
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(89): error C2065: “high”: 未声明的标识符
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(89): error C2228: “.size”的左边必须有类/结构/联合
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(91): error C2065: “high”: 未声明的标识符
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(57): error C2065: “high”: 未声明的标识符
-  c:\users\17431\source\repos\algrithom\algrithom\sort.h(51): note: 编译 类 模板 成员函数 "void max_heap<int>::heap_fy(int)" 时
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(57): error C2563: 在形参表中不匹配
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(59): error C2065: “high”: 未声明的标识符
-c:\users\17431\source\repos\algrithom\algrithom\sort.h(59): error C2563: 在形参表中不匹配
-  sort.cpp
+﻿  bst.cpp
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2988: 不可识别的模板声明/定义
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2065: “T”: 未声明的标识符
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2923: “BST”: 对于参数“T”，“T”不是有效的 模板 类型变量
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2059: 语法错误:“<end Parse>”
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\bst.cpp(17): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+  DQueue.cpp
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(10): error C2955: “DQueue”: 使用 类 模板 需要 模板 参数列表
+  d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.h(5): note: 参见“DQueue”的声明
+d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(11): error C2244: “DQueue::~DQueue”: 无法将函数定义与现有的声明匹配
+  d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(10): note: 参见“DQueue::~DQueue”的声明
+  d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(11): note: 定义
+  d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(11): note: 'DQueue::~DQueue(void)'
+  d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(11): note: 现有声明
+  d:\xmac\projects\cpp\algorithm-cpp\algrithom\algrithom\dqueue.cpp(11): note: 'DQueue<T>::~DQueue(void)'
   正在生成代码...

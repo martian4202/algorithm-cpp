@@ -5,13 +5,12 @@
 using namespace std;
 
 int main() {
-	max_heap<int> mh({ 3,4,2,6,7,9,1 });
+	vector<int> v({ 3, 4, 5,1, 2, 8 });
+	v = count_sort(v, 8);
+	for (unsigned int i = 0; i < v.size(); i++)
+		cout << v.at(i) << " ";
 
-
-	mh.build_heap();
-
-	cout << mh[0];
-
+	cout << endl;
 
 	system("Pause");
 }
