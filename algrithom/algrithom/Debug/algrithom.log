@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(88): error C2065: “low”: 未声明的标识符
+  c:\users\17431\source\repos\algrithom\algrithom\sort.h(87): note: 编译 类 模板 成员函数 "void max_heap<int>::build_heap(void)" 时
+  c:\users\17431\source\repos\algrithom\algrithom\main.cpp(11): note: 参见对正在编译的函数 模板 实例化“void max_heap<int>::build_heap(void)”的引用
+  c:\users\17431\source\repos\algrithom\algrithom\main.cpp(8): note: 参见对正在编译的 类 模板 实例化 "max_heap<int>" 的引用
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(89): error C2065: “high”: 未声明的标识符
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(89): error C2228: “.size”的左边必须有类/结构/联合
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(91): error C2065: “high”: 未声明的标识符
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(57): error C2065: “high”: 未声明的标识符
+  c:\users\17431\source\repos\algrithom\algrithom\sort.h(51): note: 编译 类 模板 成员函数 "void max_heap<int>::heap_fy(int)" 时
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(57): error C2563: 在形参表中不匹配
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(59): error C2065: “high”: 未声明的标识符
+c:\users\17431\source\repos\algrithom\algrithom\sort.h(59): error C2563: 在形参表中不匹配
+  sort.cpp
+  正在生成代码...
